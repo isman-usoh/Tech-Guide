@@ -1,0 +1,25 @@
+{
+    "extends": "react-app",
+    "plugins": [
+        "jest",
+        "react",
+        "import"
+    ],
+    "env": {
+        "jest": true,
+        "es6": true,
+        "node": true,
+        "browser": true
+    },
+    "globals": {
+        "Enzyme": true,
+        "React": true,
+        "Sinon": true,
+        "toJson": true,
+        "createStore": true
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    }
+}

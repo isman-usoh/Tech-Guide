@@ -1,11 +1,15 @@
-# Frontend developer test
+# Getlink Frontend Test
 
-Please push your code to your Github and send the link to pichaya@getlinks.co
+## 0. Prerequest
+1. Node 7.8 or newer
 
-## 1. Start from [this file](getlinks-frontend-developer-test.html), use Bootstrap to make a web page like picture below
-![](images/frontend-test.png?raw=true)
-- You can use Lorem text and placeholder images anywhere you want
-- You can modify the design if you have a better idea
-- (Optional) Make React reusable components from the web page
+## 1. Setup 
+```
+yarn install
+```
 
----
+## 2. Development
+```
+yarn start
+```
+open [http://localhost:3000](http://localhost:3000) for Demo app
